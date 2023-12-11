@@ -5,7 +5,7 @@
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 14,
-    "editor.rulers": [100, 120],
+    "editor.rulers": [80, 120],
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.iconTheme": "material-icon-theme",
     "code-runner.executorMap": {
@@ -22,9 +22,9 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.fixAll.unusedImports": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit"
       }
     },
     "python.languageServer": "Pylance",
